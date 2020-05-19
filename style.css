@@ -19,24 +19,30 @@ body {
 
 .page-header {
   margin: 0 0 0px;
-  padding: 30px 0 30px;
+  margin-bottom: 30px;
+  margin-bottom: 30;
+  padding: 40px 0;
+  background-color: #00417d;
 }
-
+.page-header .container{
+  display: flex;
+  justify-content: space-between;
+}
 .page-header .container,
 .page-footer .container {
   text-align: right;
 }
 
 .page-header a {
-  margin-left: 56px;
-  color: #288be6;
+  margin-left: 0px;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
 .header-email {
-  padding-left: 30px;
+  padding-left: 0;
   background-image: url("img/icon-email-header.svg");
 }
 
