@@ -174,9 +174,12 @@ body {
   background-color: #00417d;
   color: #ffffff;
 }
+.page-footer .container{
+  display: flex;
+  justify-content: space-between;
+}
 
 .page-footer a {
-  margin-left: 206px;
   color: inherit;
   text-decoration: none;
   background-repeat: no-repeat;
