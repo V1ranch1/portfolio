@@ -14,12 +14,13 @@ body {
 .container {
   max-width: 928px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 auto;
+  color: rgba(255, 255, 255, 0.7)
 }
 
 .page-header {
   margin: 0 0 180px;
-  padding: 40px 0 32px;
+  padding: 0px 0 32px;
 }
 
 .page-header .container,
@@ -97,7 +98,7 @@ body {
 
 .skills-list {
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 .skills-list dt {
@@ -191,4 +192,10 @@ body {
 
 span {
   color: #fea18d;
+}
+
+h2 {
+  padding: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9)
 }
