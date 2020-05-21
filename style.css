@@ -166,8 +166,9 @@ body {
 }
 
 .page-footer {
-  padding: 40px 0;
+  padding: 30px 0;
   background-color: #260c26;
+  margin-top: 312px;
 }
 
 .page-footer a {
@@ -186,4 +187,8 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+}
+
+span {
+  color: #fea18d;
 }
